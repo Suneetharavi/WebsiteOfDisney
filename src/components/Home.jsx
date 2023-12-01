@@ -22,9 +22,7 @@ function Home() {
       <Commingsoon/>
       <Vacation/>
       <Footers/>
-
-
-
+      
     </div>
   )
 }

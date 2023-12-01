@@ -1,4 +1,5 @@
 import React from 'react'
+import Footer from './Footer';
 import { Link } from 'react-router-dom';
 
 
@@ -26,16 +27,18 @@ function DisneyPlus() {
         </div>
         
         </div>
+        <div className='TandCDiv'>
         <a href=''>Terms Apply.</a>
         <p>All of these and more now streaming on Disney+, Hulu, and ESPN+ with the Disney Bundle. Indiana Jones and the Dial of Destiny streaming December 1 on Disney+.</p>
         <a href=''>View All Plan Options</a>
+        </div>
     </div>
    <div class='section2'>        
-       <Link to='/NewOnDisney' className='link'><div>NEW ON DISNEY</div> </Link>
+       <Link to='/DisneyPlus/NewOnDisney' className='link'><div>NEW ON DISNEY</div> </Link>
        <Link to='/ComingSoon' className='link'><div>COMING SOON</div></Link>
        <Link to='/Trending' className='link'><div>TRENDING</div></Link>
     </div>
-   
+   <Footer/>
     </div>
   )
 }

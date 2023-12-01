@@ -74,18 +74,18 @@ a{
 }
 .bundleImg{
     width: 14em;
-    margin-top: 17em;
+    margin-top: 1em;
     /* margin-left: 2em; */
 }
 .huluAndDisneyImg{
     width:15em;
-    margin-top: 18em;
+    margin-top: 1.8em;
    
 }
 .hAndD{
     display: flex;
     flex-direction: column;
-    margin-left: 25em;
+    margin-left: 10em;
 }
 .dBundle{
     display: flex;
@@ -96,9 +96,16 @@ a{
 }
 .mainbuttons{
     display: flex;
-    align-items: center;
-    margin-left: auto;
+    /* align-items: center; */
+   padding-top: 30px;
     margin-right: auto;
+    margin-left: 300px;
+    margin-top: 0px;
+}
+.TandCDiv{
+
+    margin-top: 90px;
+    margin-left: -8em;
 }
 footer{    
     display: flex;    
@@ -108,11 +115,13 @@ footer{
     background-color: black;
     color:silver;
     margin-bottom: 0px;
-    height: 20em;
-    width: 75%;
+    height: 10em;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
-    line-height: 1.9;
+    line-height: 1.0;
+    padding-top: 0px;
+    position:sticky;
     
 }
 footer img{
@@ -149,8 +158,13 @@ flex-direction: column;
     display:flex;
     justify-content: space-evenly;
     font-weight: bold;
+    background-color: rgb(24, 229, 113);
+    height: 25px;
+    margin-top: 20px;
+    padding-top: 1em;
+    margin-bottom: 200px;
    
 }
 .section2 .link{
-    color: white;
+    color: rgb(12, 12, 12);
 }

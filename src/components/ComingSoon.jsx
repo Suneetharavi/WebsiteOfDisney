@@ -2,7 +2,7 @@ import React from 'react'
 
 function ComingSoon(s) {
   return (
-    <div>
+    <div className='newmovies'>
         <img src='//cnbl-cdn.bamgrid.com/assets/de41764dddfd203e0ab3a62c920cf093f43a1168e9df5f38a73c1b812ee524b1/original' alt='Percy Jackson and the olympains' style={{width:'20em',height:'15em',margin:'0.5em'}}/>
         <img src='//cnbl-cdn.bamgrid.com/assets/791cbfe568d98c29e7c3b2afd6b61f08a5689d05b7bc4620a85542fb3a0287fd/original' alt='The santa Clauses' style={{width:'20em',height:'15em',margin:'0.5em'}}/>
         <img src='//cnbl-cdn.bamgrid.com/assets/61efb8588eba0fbaf7bf8d38e53d6dd5d4d6b0bf11a55f7ebc6c8cb3a1b2934f/original' alt='Spider Man' style={{width:'20em',height:'15em',margin:'0.5em'}}/>
