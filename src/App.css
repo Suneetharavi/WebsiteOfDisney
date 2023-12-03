@@ -90,14 +90,13 @@
 .salesButtonClass{
   display:flex;
   justify-content:space-around;
-  margin-left: 4em;
+  margin-left: 6em;
   position: absolute;
   /* z-index: 3; */
-  width: 30%;
+  width: 20%;
   height: auto;
-  padding-left:2em;
+  padding-left:1em;
   padding-right:2em;
-  margin-left: 4;
   margin-top: -16em;
   image-rendering:optimizeQuality;
 }
